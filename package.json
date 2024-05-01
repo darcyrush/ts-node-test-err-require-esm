@@ -1,0 +1,12 @@
+{
+  "name": "ts-node-test-err-require-esm",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project src/ --outDir dist/",
+    "test": "TS_NODE_PROJECT=./src/tsconfig.json node --require ts-node/esm --test-reporter spec --test 'test/**/*.test.ts'"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

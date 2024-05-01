@@ -1,0 +1,11 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+  }
+}
